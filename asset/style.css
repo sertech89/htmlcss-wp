@@ -31,6 +31,7 @@ main{
     height: 500px;
     background-image: url("./img/banner.jpg");
     background-position: center;
+    border-radius: 20px;
 }
 
 .box-blue{
@@ -61,9 +62,7 @@ footer{
     background-size: auto;
     background-position: top;
     background-repeat: no-repeat, repeat;
-
-
-
+    border-radius: 20px;
 }
 
 .cc{
@@ -75,7 +74,7 @@ footer{
     background-image: url("./img/banner-2.jpg");
     background-size: auto;
     background-position: center;
-
+    border-radius: 20px;
 }
 
 .dx{
@@ -86,6 +85,7 @@ footer{
     background-repeat: no-repeat, repeat;
     background-size: auto;
     background-position: top;
+    border-radius: 20px;
 }
 
 .Logo{
@@ -116,7 +116,7 @@ li{
 }
 
 .overlay{
-    background-color: rgba(255, 5, 5, 0.2);
+    background-color: rgba(255, 5, 5, 10);
     position: absolute;
     top: 0;
     bottom: 0;
