@@ -30,7 +30,7 @@ main{
     width: 100%;
     height: 500px;
     background-image: url("./img/banner.jpg");
-    background-size: auto;
+    background-position: center;
 }
 
 .box-blue{
@@ -57,6 +57,7 @@ footer{
     width: 20%;
     height: 520px;
     float: left;
+
 }
 
 .cc{
@@ -67,6 +68,8 @@ footer{
     margin-right: 30px;
     background-image: url("./img/banner-2.jpg");
     background-size: auto;
+    background-position: center;
+
 }
 
 .dx{
@@ -75,7 +78,7 @@ footer{
     float: left;
     background-image: url("./img/img-3.jpg");
     background-size: auto;
-}
+    background-repeat: no-repeat, repeat;}
 
 .Logo{
     height: 50px;
@@ -87,9 +90,9 @@ li{
     padding: 0;
 }
 
-/* .schermata-principale{
+.schermata-principale{
     position: relative;
-} */
+}
 
 .menu-principale a{
     display: inline-block;
@@ -104,14 +107,14 @@ li{
     text-decoration: none;
 }
 
-/* .overlay{
+.overlay{
     background-color: rgba(255, 5, 5, 0.2);
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    bottom: 0; */
-/* } */
+    bottom: 0;
+}
 
 li:hover{
     background-color: black;
