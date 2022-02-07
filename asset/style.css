@@ -57,6 +57,12 @@ footer{
     width: 20%;
     height: 520px;
     float: left;
+    background-image: url("./img/img-1.jpg");
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat, repeat;
+
+
 
 }
 
@@ -77,8 +83,10 @@ footer{
     height: 520px;
     float: left;
     background-image: url("./img/img-3.jpg");
+    background-repeat: no-repeat, repeat;
     background-size: auto;
-    background-repeat: no-repeat, repeat;}
+    background-position: top;
+}
 
 .Logo{
     height: 50px;
